@@ -36,7 +36,7 @@ class WheelFilter:
             self.min_y = 0  
             self.max_y = 100000
             self.ssd_threshold = 100000 
-            self.use_template = False  
+            self.use_template = True  
             logging.info("WheelFilter initialized in CAMERA mode (relaxed parameters)")
         else:
             self.min_radius = 53
